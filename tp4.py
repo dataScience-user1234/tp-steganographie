@@ -79,7 +79,7 @@ print("Message caché : ", message)
 if __name__ == "__main__":
     image_originale = "image1.png"      
     image_trafiquee = "image_changee.png"
-    message_secret = "Bonjour, je suis Abdallah Remmide et j'ai developpé deux outils de stéganographie permettant de cacher et lire des messages dans une image"
+    message_secret = "Bonjour, je suis Abdallah Remmide :)"
 
     print("1. Dissimulation du message en cours...")
     cacher_message(image_originale, image_trafiquee, message_secret)
